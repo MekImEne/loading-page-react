@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "./style.css";
+import { Link } from "react-scroll";
 
 export default class Header extends Component {
   render() {
@@ -22,19 +23,44 @@ export default class Header extends Component {
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav as="ul" className="nav">
                       <li>
-                        <Nav.Link className="active"> Home</Nav.Link>
+                        <Nav.Link className="active">
+                          <Link to="features" spy={true} smooth={true}>
+                            Home
+                          </Link>
+                        </Nav.Link>
                       </li>
                       <li>
-                        <Nav.Link>About</Nav.Link>
+                        <Nav.Link>
+                          <Link to="features" spy={true} smooth={true}>
+                            About
+                          </Link>
+                        </Nav.Link>
                       </li>
                       <li>
-                        <Nav.Link>Classes</Nav.Link>
+                        <Nav.Link>
+                          <Link to="our-classes" spy={true} smooth={true}>
+                            Classes
+                          </Link>
+                        </Nav.Link>
                       </li>
                       <li>
-                        <Nav.Link>Schedules</Nav.Link>
+                        <Nav.Link>
+                          <Link to="schedule" spy={true} smooth={true}>
+                            Schedules
+                          </Link>
+                        </Nav.Link>
                       </li>
                       <li>
-                        <Nav.Link>Contact</Nav.Link>
+                        <Nav.Link>
+                          <Link
+                            style={{ all: "unset" }}
+                            to="contact-us"
+                            spy={true}
+                            smooth={true}
+                          >
+                            Contact
+                          </Link>
+                        </Nav.Link>
                       </li>
                     </Nav>
                   </Navbar.Collapse>
