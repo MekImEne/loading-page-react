@@ -11,17 +11,7 @@ export default class Footer extends Component {
         <Container>
           <Row>
             <Col lg={12}>
-              <p>
-                Copyright &copy; 2020 Training Studio - Designed by{" "}
-                <a
-                  rel="nofollow"
-                  href="https://templatemo.com"
-                  className="tm-text-link"
-                  target="_parent"
-                >
-                  TemplateMo
-                </a>
-              </p>
+              <p>Copyright &copy; 2020 Ftiness Studio</p>
             </Col>
           </Row>
         </Container>
