@@ -9,7 +9,7 @@ import "./style.css";
 export default class Contact extends Component {
   render() {
     return (
-      <section class="section" id="contact-us">
+      <section className="section" id="contact-us">
         <Container fluid>
           <Row>
             <Col lg={6} md={6} xs={12}>
@@ -26,7 +26,7 @@ export default class Contact extends Component {
             </Col>
             <Col lg={6} md={6} xs={12}>
               <div
-                class="contact-form"
+                className="contact-form"
                 style={{ backgroundImage: `url(‘${contactBg}’)` }}
               >
                 <form id="contact" action="" method="post">
@@ -80,7 +80,7 @@ export default class Contact extends Component {
                         <button
                           type="submit"
                           id="form-submit"
-                          class="main-button"
+                          className="main-button"
                         >
                           Send Message
                         </button>

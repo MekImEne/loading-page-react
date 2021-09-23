@@ -16,7 +16,7 @@ export default class Footer extends Component {
                 <a
                   rel="nofollow"
                   href="https://templatemo.com"
-                  class="tm-text-link"
+                  className="tm-text-link"
                   target="_parent"
                 >
                   TemplateMo

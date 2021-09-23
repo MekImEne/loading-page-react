@@ -9,14 +9,14 @@ export default class Subscribe extends Component {
   render() {
     return (
       <section
-        class="section"
+        className="section"
         id="call-to-action"
         style={{ backgroundImage: `url('${ctaBg}')` }}
       >
         <Container>
           <Row>
             <Col lg={{ span: 10, offset: 1 }}>
-              <div class="cta-content">
+              <div className="cta-content">
                 <h2>
                   Don’t <em>think</em>, begin <em>today</em>!
                 </h2>
@@ -25,7 +25,7 @@ export default class Subscribe extends Component {
                   ultricies ligula, sit amet dapibus odio augue eget libero.
                   Morbi tempus mauris a nisi luctus imperdiet.
                 </p>
-                <div class="main-button scroll-to-section">
+                <div className="main-button scroll-to-section">
                   <a href="#our-classes">Become a member</a>
                 </div>
               </div>

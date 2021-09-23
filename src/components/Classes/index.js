@@ -15,11 +15,11 @@ import trainingImage4 from "../../assets/images/training-image-04.jpg";
 export default class Classes extends Component {
   render() {
     return (
-      <section class="section" id="our-classes">
+      <section className="section" id="our-classes">
         <Container>
           <Row>
             <Col lg={{ span: 6, offset: 3 }}>
-              <div class="section-heading">
+              <div className="section-heading">
                 <h2>
                   Our <em>Classes</em>
                 </h2>
@@ -60,7 +60,7 @@ export default class Classes extends Component {
                       Fourth Training Class
                     </Nav.Link>
                   </Nav.Item>
-                  <div class="main-rounded-button">
+                  <div className="main-rounded-button">
                     <a href="/">View All Schedules</a>
                   </div>
                 </Nav>
@@ -78,7 +78,7 @@ export default class Classes extends Component {
                       Morbi quis erat imperdiet, molestie nunc ut, accumsan
                       diam.
                     </p>
-                    <div class="main-button">
+                    <div className="main-button">
                       <a href="/">View Schedule</a>
                     </div>
                   </Tab.Pane>
@@ -93,7 +93,7 @@ export default class Classes extends Component {
                       Cras quis pulvinar eros. Orci varius natoque penatibus et
                       magnis dis parturient montes, nascetur ridiculus mus.
                     </p>
-                    <div class="main-button">
+                    <div className="main-button">
                       <a href="/">View Schedule</a>
                     </div>
                   </Tab.Pane>
@@ -107,7 +107,7 @@ export default class Classes extends Component {
                       sapien, id scelerisque felis magna id felis. Proin neque
                       metus, pellentesque pharetra semper vel, accumsan a neque.
                     </p>
-                    <div class="main-button">
+                    <div className="main-button">
                       <a href="/">View Schedule</a>
                     </div>
                   </Tab.Pane>
@@ -120,7 +120,7 @@ export default class Classes extends Component {
                       elementum odio ac tempus. Etiam eleifend orci lectus, eget
                       venenatis ipsum commodo et.
                     </p>
-                    <div class="main-button">
+                    <div className="main-button">
                       <a href="/">View Schedule</a>
                     </div>
                   </Tab.Pane>
